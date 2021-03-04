@@ -22,12 +22,3 @@ target 'AudioPlayer' do
     flipper_post_install(installer)
   end
 end
-
-target 'AudioPlayer-tvOS' do
-  # Pods for AudioPlayer-tvOS
-
-  target 'AudioPlayer-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-end
